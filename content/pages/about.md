@@ -1,5 +1,10 @@
 ---
+type: Page
 title: About
-permalink: '/about'
-layout: 'layouts/base.liquid'
+slug: about
+permalink: /about
+layout: layouts/base.liquid
+content: |
+  About
 ---
+About
