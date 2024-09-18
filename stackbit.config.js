@@ -4,7 +4,7 @@ import { allModels } from "./.stackbit/models"
 export default {
     stackbitVersion: '~0.6.0',
     ssgName: 'custom',
-    devCommand: 'npx @11ty/eleventy --serve --port 3000',
+    devCommand: './node_modules/.bin/eleventy --serve --port {PORT}',
     contentSources: [
         new GitContentSource({
             rootPath: __dirname,
