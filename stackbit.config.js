@@ -15,8 +15,8 @@ export default {
             }
         })
     ],
-    models: {
-      Page: {
+    models: [
+      {
         name: "Page",
         type: "page",
         urlPath: "/{slug}",
@@ -29,6 +29,5 @@ export default {
             { name: "markdown_content", type: "markdown"}
         ]
       }
-    },
-    ignorePatterns: ['package.json', 'package-lock.json']
+    ]
   }
