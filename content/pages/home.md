@@ -1,13 +1,7 @@
 ---
 type: Page
-title: Home Test
+title: Home
 slug: home
-permalink: /
+permalink: /home
 layout: layouts/base.liquid
-content: |
-  Content
-
-  More
 ---
-
-# Home

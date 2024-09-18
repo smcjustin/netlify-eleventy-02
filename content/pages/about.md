@@ -4,7 +4,5 @@ title: About
 slug: about
 permalink: /about
 layout: layouts/base.liquid
-content: |
-  About
 ---
 About

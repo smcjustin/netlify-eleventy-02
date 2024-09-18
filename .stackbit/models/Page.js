@@ -9,7 +9,6 @@ export const PageModel = {
         { name: "title", type: "string", required: true },
         { name: "permalink", type: "string"},
         { name: "layout", type: "string"},
-        { name: "content", type: "markdown"},
         { name: "markdown_content", type: "markdown", label: "Content", description: "Page content"}
     ]
 }
