@@ -5,4 +5,5 @@ slug: contact
 permalink: /contact
 layout: layouts/base.liquid
 ---
-Contact
+
+## Markdown Content

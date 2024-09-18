@@ -2,6 +2,8 @@
 type: Page
 title: Home
 slug: home
-permalink: /home
+permalink: /
 layout: layouts/base.liquid
 ---
+
+## Markdown Content
