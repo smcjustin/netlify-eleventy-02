@@ -8,3 +8,4 @@ Icon
 
 node_modules
 _site
+.stackbit/cache

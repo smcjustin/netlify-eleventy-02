@@ -13,5 +13,8 @@
   "description": "",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "devDependencies": {
+    "@stackbit/cms-git": "^1.0.9"
   }
 }
