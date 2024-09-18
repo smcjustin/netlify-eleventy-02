@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
-    "stackbit": "npx @11ty/eleventy --serve"
+    "stackbit": "npx @11ty/eleventy --serve --port 3000"
   },
   "keywords": [],
   "author": "",
