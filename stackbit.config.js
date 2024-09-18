@@ -1,7 +1,7 @@
 import { GitContentSource } from "@stackbit/cms-git"
 export default {
     stackbitVersion: '~0.6.0',
-    ssgName: 'nextjs',
+    ssgName: 'custom',
     contentSources: [
         new GitContentSource({
             rootPath: __dirname,
