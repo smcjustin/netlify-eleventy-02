@@ -13,9 +13,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@stackbit/types": "^2.0.7"
   },
   "devDependencies": {
+    "@stackbit/cli": "^0.3.95",
     "@stackbit/cms-git": "^1.0.9"
   }
 }

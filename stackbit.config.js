@@ -1,12 +1,15 @@
 import { GitContentSource } from "@stackbit/cms-git"
+import { allModels } from "./.stackbit/models"
+
 export default {
     stackbitVersion: '~0.6.0',
     ssgName: 'custom',
-    devCommand: 'npx @11ty/eleventy --serve',
+    devCommand: 'npx @11ty/eleventy --serve --port 3000',
     contentSources: [
         new GitContentSource({
             rootPath: __dirname,
             contentDirs: ['content'],
+            models: allModels,
             assetsConfig: {
                 referenceType: 'static',
                 staticDir: 'public',
@@ -15,19 +18,5 @@ export default {
             }
         })
     ],
-    models: [
-      {
-        name: "Page",
-        type: "page",
-        urlPath: "/{slug}",
-        filePath: "content/pages/{slug}.md",
-        fields: [
-            { name: "title", type: "string", required: true },
-            { name: "permalink", type: "string"},
-            { name: "layout", type: "string"},
-            { name: "content", type: "markdown"},
-            { name: "markdown_content", type: "markdown"}
-        ]
-      }
-    ]
-  }
+    models: allModels
+}
